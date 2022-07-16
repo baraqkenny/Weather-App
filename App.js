@@ -10,9 +10,9 @@ button.addEventListener('click',() => {
 
     const cityInput = inputTxt.value;
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityInput}&units-metric&appid=${API_Key}`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityInput}&units-metric&APPID=${API_Key}`)
     .then(res => res.json())
-    .then(data =>  {
+    .then(data => {
         
         inputTxt.value = "";
 
