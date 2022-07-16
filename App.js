@@ -29,18 +29,3 @@ button.addEventListener('click',() => {
     });
 });
 
-
-// const changeBg = ()=>{
-   
-//     const images =[
-//         'url(thunder2.jpeg)',
-//         'url(city.jpeg)',
-//     ]
-//     const body = document.querySelector('body')
-//     const bg = images[Math.floor(Math.random() * images.length)];
-//     body.style.background = 'linearGradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))',bg;
-// }
-
-// setInterval(changeBg, 1000)
-
-
