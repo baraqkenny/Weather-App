@@ -18,7 +18,7 @@ button.addEventListener('click',() => {
 
         showData.innerHTML = `
                                 <ul>
-                                  <li class="desc"> Description: ${data.weather[0].description}
+                                  <li class="desc"> Description: ${data.weather[0].description}</li>
                                   <li class="city">City: ${data.name}</li>
                                   <li class="temp">Temperature: ${data.main.temp}°c</li>
                                   <li class="timezone">Timezone: ${data.timezone}</li>l
