@@ -9,11 +9,12 @@ const API_Key = "d790c8ce392175c4dcd464b32bd2ef62";
 button.addEventListener('click',() => {
 
     const cityInput = inputTxt.value;
+    
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&units-metric&APPID=${API_Key}`)
     .then(res => res.json())
     .then(data => {
-        
+        console.log(data)
         inputTxt.value = "";
 
         showData.innerHTML = `
